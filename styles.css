@@ -1,0 +1,67 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #161712;
+
+}
+
+.app {
+    margin: 0 auto;
+    width: 80vw;
+    height: 100%;
+    background: #222222;
+    position: relative;
+	top: 50px;
+	border: 1px solid #262626;
+
+}
+
+.contactForm {
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contactForm input {
+    padding: 10px;
+    margin-left: 10px;
+    background: #1C1C1C;
+    color: white;
+    border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left: 1px double #333333;
+	border-right: 1px double #333333;
+}
+
+.contactForm button {
+    background: #CC0000;
+    border-bottom: 1px double #660000;
+	border-top: 1px double #660000;
+	border-left: 1px double #FF0033;
+    border-right: 1px double #FF0033;
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.contactItem {
+    text-align: center;
+    color: white;
+    line-height: 2;
+}
+
+
+
